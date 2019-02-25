@@ -15,7 +15,7 @@ module.exports = {
         new CleanWebpackPlugin(['dist']),
         new HtmlWebpackPlugin({
             title: 'Output management',
-            template: './src/index.html'
+            template: './index.html'
         })
     ],
     module: {
