@@ -12,7 +12,7 @@ module.exports = {
         contentBase: './src'
     },
     plugins: [
-        new CleanWebpackPlugin(['dist']),
+        new CleanWebpackPlugin(),
         new HtmlWebpackPlugin({
             title: 'Output management',
             template: './index.html'
